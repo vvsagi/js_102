@@ -65,7 +65,14 @@ function printRubicksCubeColors(name) {
             isBiDirectional: true
         };
 
+    // for(let i = 0; i < rubiksCube.colors.length; i++) {
+    //     if(rubiksCube.colors[i].length < 5) {
+    //         console.log(rubiksCube.colors[i]);
+    //     };
+    // };
+    // DRY Don't Repeat Yourself
     for(let i = 0; i < rubiksCube.colors.length; i++) {
+        const color = 
         if(rubiksCube.colors[i].length < 5) {
             console.log(rubiksCube.colors[i]);
         };
